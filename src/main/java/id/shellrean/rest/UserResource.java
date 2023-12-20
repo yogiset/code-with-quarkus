@@ -10,7 +10,7 @@ import java.util.*;
 @Path("users")
 public class UserResource {
  //  private List<UserData> users = new ArrayList<>();
-    private Map<String, UserData> users = new HashMap<>();
+    private Map<Object, UserData> users = new HashMap<>();
 
     @Path("all")
     @GET
